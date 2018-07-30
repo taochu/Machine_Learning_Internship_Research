@@ -6,7 +6,7 @@ Autoencoder is useful in extracting latent representation of high dimensional da
 
 Before building autoencoder models, first let's take a look at how data points are distributed in high dimensional space. Use t-SNE(t-distributed Stochastic Neighbor Embedding) to help visualize high dimensional data.
 
-[1](images/tsne.png)
+![1](images/tsne.png)
 
 We can see there are obvious clusters that separate digits apart from different ones, which indicates linear separability in high dimensional space. Next, let's see if autoencoders are able to do anything good to keep the clusters while compressing the data into only 2 dimensions.
 
