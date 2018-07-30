@@ -30,8 +30,8 @@ Finally, let's go deeper inside the vae:
 
 400-256-2|400-256-64-2|400-256-64-10-2|
 :---:|:---:|:---:|
-![1](images/clusters_400_256.png)|![2](images/clusters_400_256_64.png)|![3](images/clusters_256_64_10.png)|
-![4](images/digits_400_256.png)|![5](images/digits_400_256_64.png)|![6](images/digits_256_64_10.png)|
+![1](images/clusters_400_256.png)|![2](images/clusters_400_256_64.png)|![3](images/clusters_400_256_64_10.png)|
+![4](images/digits_400_256.png)|![5](images/digits_400_256_64.png)|![6](images/digits_400_256_64_10.png)|
 
 
 
