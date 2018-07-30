@@ -33,6 +33,4 @@ Finally, let's go deeper inside the vae:
 ![1](images/clusters_400_256.png)|![2](images/clusters_400_256_64.png)|![3](images/clusters_400_256_64_10.png)|
 ![4](images/digits_400_256.png)|![5](images/digits_400_256_64.png)|![6](images/digits_400_256_64_10.png)|
 
-
-
-
+Interestingly, instead of getting better reconstruction as the model goes deeper, leftmost model with only 2 hidden layers seems to attain best reconstruction among the three with the images specified. However, as the scatter distributions shows, (4,9) and (3,5,8) still overlaps too much to cluster different digits apart, which means the latent dimension might be too low if we want to implement clustering analysis on latent features.
