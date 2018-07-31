@@ -39,3 +39,5 @@ Model with no hidden layers gives a very lossy result, while those with one hidd
 :---:|:---:|
 ![1](images/clusters_400_128_32_10.png)|![2](images/clusters_256_128_32_10.png)|
 ![4](images/digits_400_128_32_10.png)|![5](images/digits_256_128_32_10.png)|
+
+We can tell that all models has the same difficulty telling 4 & 9, 5 & 8, except for these two, models with first layer of size 400 tends to perform better and better on telling 6 as it goes deeper, while those with first layer of size 256 don't vary much in terms of both clustering and reconstructing. All in all, it should take more researches to find a way to further separates different digits under 2 dimensions.
