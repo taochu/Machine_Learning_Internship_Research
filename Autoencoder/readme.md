@@ -28,12 +28,14 @@ Model with no hidden layers gives a very lossy result, while those with one hidd
 
 - 3 hidden layers:
 
+400-256-128|256-128-64|
 :---:|:---:|
 ![1](images/clusters_400_256_128.png)|![2](images/clusters_256_128_64.png)|
 ![4](images/digits_400_256_128.png)|![5](images/digits_256_128_64.png)|
 
 - 4 hidden layers:
 
+400-128-32-10|256-128-32-10|
 :---:|:---:|
 ![1](images/clusters_400_128_32_10.png)|![2](images/clusters_256_128_32_10.png)|
 ![4](images/digits_400_128_32_10.png)|![5](images/digits_256_128_32_10.png)|
