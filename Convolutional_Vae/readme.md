@@ -26,3 +26,5 @@ Parameters if not tuned:
 
 As we can see, ConvVAE performs a lot better than plain autoencoder and variational autoencoder while reconstructing 4 and 9, however, in latent space, they still overlap a lot and the results of clustering are still ideal, so I decide to take the latent space dimension up by 1, and visualize the data in 3D to see if the additional latent dimension helps learn more robust features.
 
+![1](images/clusters_3D.png)|![2](images/clusters_3D_2.png)
+![3](images/digits_3D.png)|
