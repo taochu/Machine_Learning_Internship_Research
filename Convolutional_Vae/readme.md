@@ -7,7 +7,9 @@ Taking advantage of the fact that convolutional neural network is very powerful 
 Parameters if not tuned:
 
 `intermediate layers sizes = [1000,256]`
+
 `no. of filters = [16,32]`
+
 `KL divergence ratio = 0.000001`
 
 - Different No. of Filters:
