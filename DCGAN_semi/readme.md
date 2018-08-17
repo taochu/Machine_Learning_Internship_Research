@@ -27,9 +27,9 @@ Also the generated images of the above models
 
 |No. of Labels|Images|
 |:---:|:---:|
-|96|(images/label_rate_0.0016_100.png)|
-|960|(images/label_rate_0.016_100.png)|
-|9600|(images/label_rate_0.16_100.png)|
+|96|[](images/label_rate_0.0016_100.png)|
+|960|[](images/label_rate_0.016_100.png)|
+|9600|[](images/label_rate_0.16_100.png)|
 
 With only 96 labeled data, the model is able to attain 87% accuracy from 10000 unseen images, and with less than 1000 labeled data, it's reached even higher accuracy as 96%. This is exactly the main spirit of semi-supervised learning, using very small number of labeled data to predict data with far larger size and with such a high accuracy too.
 
