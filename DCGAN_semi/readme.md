@@ -7,21 +7,26 @@ Generative adversarial network(GAN in short) is a very interesting topic in deep
 
 First, let's see how number of epochs can affect the learning process.
 
-|20 epochs|
-|![](images/epoch_20.png)|
-|100 epochs|
-|![](images/epoch_100.png)|
+|Epochs|Images|
+|:---:|:---:|
+|20 epochs|![](images/epoch_20.png)|
+|100 epochs|![](images/epoch_100.png)|
+
 
 Obviously, with more iterations of training, the generator can reach better results in creating images from random Gaussian distributed variables.
 
 Next comes to the main point of semi-supervised learning- how many labeled data we need to have the classifier perform well? Following is the accuracy of models trained with three different numbers of labeled data, all trained with 100 epochs.
 
+|No. of Labels|Accuracy|
+|:---:|:---:|
 |96(label rate=0.0016)|0.8712|
 |960(label rate=0.016)|0.9614|
 |9600(label rate=0.16)|0.9736|
 
 Also the generated images of the above models
 
+|No. of Labels|Images|
+|:---:|:---:|
 |96|(images/label_rate_0.0016_100.png)|
 |960|(images/label_rate_0.016_100.png)|
 |9600|(images/label_rate_0.16_100.png)|
